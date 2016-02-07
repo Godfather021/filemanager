@@ -9,7 +9,7 @@ local bot_api_key = "145098139:AAFf-gfJ3eqyONzK1SXbXPuZfDGNn5__4Go"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 -- Base folder like
 -- local BASE_FOLDER = "/home/imandaneshi/files/"
-local BASE_FOLDER = ""
+local BASE_FOLDER = "/home/x6/"
 -------
 
 ----utilites----
@@ -19,7 +19,8 @@ function is_admin(msg)-- Check if user is admin or not
   local admins = {128556958,109722284,91054649}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
-      var = true
+      
+var = true
     end
   end
   return var
